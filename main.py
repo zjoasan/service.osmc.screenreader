@@ -3,8 +3,8 @@ import os, sys, xbmc
 
 
 def main():
-    if os.path.exists(os.path.join(xbmc.translatePath('special://profile'), 'addon_data', 'service.xbmc.tts', 'DISABLED')):
-        xbmc.log('service.xbmc.tts: DISABLED - NOT STARTING')
+    if os.path.exists(os.path.join(xbmc.translatePath('special://profile'), 'addon_data', 'service.osmc.screenreader', 'DISABLED')):
+        xbmc.log('service.osmc.screenreader: DISABLED - NOT STARTING')
         return
 
     arg = None
