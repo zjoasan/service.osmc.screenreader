@@ -1,0 +1,7 @@
+Changelog for service.osmc.tts
+==============================
+
+Based on pvagner fork of service.xbmc.tts
+
+v. 0.8
+- forked, merge 2to3 branch to master, renamed
